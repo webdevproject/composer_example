@@ -1,0 +1,19 @@
+{
+    "name": "webdevproject/composer_example",
+    "description": "Ein Composer Beispiel",
+    "keywords": ["tutorial", "example", "webdevproject"],
+    "autoload": {
+        "psr-0": { "WebdevProject": "app/" }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/filesystem": "*"
+    },
+    "authors": [
+        {
+            "name": "Webdev Project",
+            "email": "yourwebdev66@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
